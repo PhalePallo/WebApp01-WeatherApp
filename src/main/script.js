@@ -48,3 +48,5 @@ async function getWeather(event) {
         document.getElementById('weather-output').innerHTML = `Error fetching data.`;
     }
 }
+// Example usage of Lodash
+console.log(_.chunk(['a', 'b', 'c', 'd'], 2));  // [['a', 'b'], ['c', 'd']]
